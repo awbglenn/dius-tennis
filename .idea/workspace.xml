@@ -2,11 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="77f60f24-98f7-4c13-8866-c99a881ca6e7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/glenn/dius/tennis/GameTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Game.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Game.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Match.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Match.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/glenn/dius/tennis/MatchTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/glenn/dius/tennis/MatchTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/glenn/dius/tennis/MatchTests.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -19,22 +19,27 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Match.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="375">
-              <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+              <folding>
+                <element signature="e#344#345#0" expanded="true" />
+                <element signature="e#375#376#0" expanded="true" />
+                <element signature="e#496#497#0" expanded="true" />
+                <element signature="e#536#537#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Match.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/glenn/dius/tennis/GameTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="165">
-              <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+            <state relative-caret-position="460">
+              <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
               <folding>
-                <element signature="e#157#158#0" expanded="true" />
-                <element signature="e#178#179#0" expanded="true" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -52,8 +57,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Game.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" selection-start-line="4" selection-end-line="4" />
+            <state relative-caret-position="280">
+              <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+              <folding>
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#191#192#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -61,8 +70,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/glenn/dius/tennis/MatchTests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+            <state relative-caret-position="145">
+              <caret line="107" column="11" lean-forward="true" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -90,8 +99,10 @@
         <option value="$PROJECT_DIR$/src/test/java/glenn/dius/tennis/PlayerTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Set.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Match.java" />
+        <option value="$PROJECT_DIR$/src/test/java/glenn/dius/tennis/GameTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/glenn/dius/tennis/MatchTests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Game.java" />
+        <option value="$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Match.java" />
       </list>
     </option>
   </component>
@@ -183,7 +194,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549638932502" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1549644441901" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="Arquillian JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.Arquillian JUnit4" value="" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -210,7 +221,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.GameTests">
+    <configuration name="GameTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="dius-tennis-glenn" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="glenn.dius.tennis.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="glenn.dius.tennis" />
+      <option name="MAIN_CLASS_NAME" value="glenn.dius.tennis.GameTests" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="MatchTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="dius-tennis-glenn" />
       <extension name="coverage">
@@ -228,6 +254,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.GameTests" />
         <item itemvalue="JUnit.MatchTests" />
       </list>
     </recent_temporary>
@@ -242,17 +269,52 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1549633933552</updated>
-      <workItem from="1549633938053" duration="2809000" />
+      <workItem from="1549633938053" duration="8096000" />
     </task>
+    <task id="LOCAL-00001" summary="First Test">
+      <created>1549639006646</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1549639006646</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="MatchTests - 2019.02.08 at 16h 08m 34s.xml">
+    <history-entry file="MatchTests - 2019.02.08 at 17h 10m 34s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 11m 00s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 21m 30s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 22m 26s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 28m 40s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 29m 48s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 30m 04s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 37m 04s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 42m 58s.xml">
+      <configuration name="MatchTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MatchTests - 2019.02.08 at 17h 43m 06s.xml">
       <configuration name="MatchTests" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2809000" />
+    <option name="totallyTimeSpent" value="8096000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="130" y="23" width="1680" height="1050" extended-state="0" />
@@ -263,7 +325,7 @@
       <window_info id="UI Designer" />
       <window_info id="Capture Tool" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24969475" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Messages" weight="0.32985386" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -273,7 +335,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.32985386" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -291,6 +353,10 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="First Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="First Test" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/test/java/glenn/dius/tennis/PlayerTest.java">
@@ -310,6 +376,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Set.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="45">
@@ -319,33 +392,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Game.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="31" column="10" selection-start-line="31" selection-start-column="10" selection-end-line="31" selection-end-column="10" />
+        <state relative-caret-position="280">
+          <caret line="36" column="9" lean-forward="true" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding>
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#191#192#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/glenn/dius/tennis/Match.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="18" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
+        <state relative-caret-position="375">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
           <folding>
-            <element signature="e#157#158#0" expanded="true" />
-            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#344#345#0" expanded="true" />
+            <element signature="e#375#376#0" expanded="true" />
+            <element signature="e#496#497#0" expanded="true" />
+            <element signature="e#536#537#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/glenn/dius/tennis/GameTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="56" column="5" selection-start-line="56" selection-start-column="5" selection-end-line="56" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/glenn/dius/tennis/MatchTests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="4" selection-start-line="16" selection-start-column="4" selection-end-line="16" selection-end-column="4" />
+        <state relative-caret-position="145">
+          <caret line="107" column="11" lean-forward="true" selection-start-line="107" selection-start-column="11" selection-end-line="107" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
